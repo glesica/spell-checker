@@ -109,7 +109,7 @@ each one. However, it will need to handle some special circumstances, like words
 that have puncuation immediately following them (such as at the end of a
 sentence or before a comma).
 
-```
+```python3
 from typing import List
 
 def check_spelling(content: str, dictionary: List[str]) -> List[Misspelling]:
